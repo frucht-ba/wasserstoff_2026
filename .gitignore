@@ -1,4 +1,42 @@
-.venv/
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python cache / build
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
 .ipynb_checkpoints/
+.jupyter/
+
+# PyPSA / energy system modeling outputs
+*.nc
+*.h5
+*.csv~  # temp files
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Environment & secrets
+*.env
+.env.*
+
+# Package distributions
+*.whl
+uebungen/Uebung_02_loesung.ipynb
+code/simulation.py
