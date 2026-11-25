@@ -40,3 +40,6 @@ venv/
 *.whl
 uebungen/Uebung_02_loesung.ipynb
 code/simulation.py
+
+# KI
+*.md
